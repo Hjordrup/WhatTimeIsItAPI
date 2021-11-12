@@ -1,0 +1,10 @@
+.alarm {
+  text-align: center;
+  color: #1dd3ff;
+  font-size: 15vw;
+}
+
+body {
+  background-color: black;
+  margin-top: 15vh;
+}
