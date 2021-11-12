@@ -1,7 +1,10 @@
 # WhatTimeIsItAPI
 Express App lavet med brug af express generator. 
-Appen presentere både json endpoints samt en statisk html/css/javascript side. 
-Appen tagerr brug af ejs som den view engine. 
+Appen presentere både json endpoints samt en statisk html/css/javascript side.<br>
+Appen tagerr brug af ejs som den view engine.  
+Appen bruger en mongoDB database til at store alarmer: 
+Appens database connection er opsat genne mongoose, mongoose er en odm (Objekt document modeling).
+ - Fra mongoose er der brugt schemas samt models 
 
 ## Base App 
 - Express App der kan vise hvad klokken er gennem en html/css side findes på Routen /time dette ur er sat til at virke gennem setInterval. 
